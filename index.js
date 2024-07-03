@@ -24,6 +24,8 @@ const makeTable = () => {
     }
   }
   console.log(table);
+
+  return table;
 }
 
 makeTable();
