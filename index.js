@@ -9,8 +9,10 @@
 
 const makeTable = () => {
 
-  const flavors = prompt('Please submit a list of froyo flavors, seperated only by a comma', 'vanilla,vanilla,vanilla,strawberry,coffee,coffee')
+  // const flavors = prompt('Please submit a list of froyo flavors, seperated only by a comma', 'vanilla,vanilla,vanilla,strawberry,coffee,coffee')
 
+  const flavors = 'vanilla,vanilla,vanilla,strawberry,coffee,coffee';
+  
   const flavorList = flavors.split(',');
 
   const table = {};
